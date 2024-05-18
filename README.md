@@ -10,8 +10,11 @@ Software Functionality
 This software offers the following capabilities:
 
   Classification: Classifies protein sequences (max length 1000 amino acids) as Ubiquitin-transferases or non-Ubiquitin transferases.
+  
   Input: Accepts input in FASTA format, allowing for multiple protein sequences (fasta records) in a single file.
+  
   Feature Selection & Vectorization: Performs feature selection (details provided in code comments) by selecting most criticalamino acids and converts sequences      into vectors suitable for the Bi-LSTM model.
+  
   Model: Utilizes a trained Bi-LSTM model for robust classification.
 
 Running the Software
@@ -19,15 +22,21 @@ Running the Software
 Prerequisites:
 
   Python 3.9
+  
   TensorFlow 2.15.0
+  
   Biopython
+  
   PrettyTable
 
 Steps:
 
   Clone this repository.
+  
   Install required libraries.
+  
   Place your FASTA file(s) in the same directory as the script.
+  
   Run the script using the command line.
   
 Output:
