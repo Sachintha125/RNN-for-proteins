@@ -27,7 +27,7 @@ This software offers the following capabilities:
  * Clone this repository.
  * Install required libraries.
  * Place your FASTA file(s) in the same directory as the script.
- * Run the script using the command line.
+ * Run the Predictor.py using the command line.
   
 ### Output:
   The script will output the classification results for each protein sequence in the FASTA file(s).
