@@ -17,7 +17,7 @@ This software offers the following capabilities:
 
 ## Running the Software
 
-### Prerequisites:
+### Requirements:
  * Python 3.9
  * TensorFlow 2.15.0
  * Biopython
